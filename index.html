@@ -265,51 +265,88 @@
                 <p class="fs-5 text-body-secondary">Вы находитесь на сайте, предназначенном для продажи товаров</p>
             </div>
         </header>
-            <main class="row">
-                <div class="row text-center col-4">
-                        <div class="card mb-4 rounded-3 shadow-sm">
-                            <div class="card-header py-3">
-                                <h4 class="my-0 fw-normal">Товар 1</h4>
-                            </div>
-                            <div class="card-body">
-                                <h2 class="card-title pricing-card-title">$100</h2>
-                                <p>
-                                    10 users included,
-                                    2 GB of storage,
-                                    Email support,
-                                    Help center access
-                                </p>
-                                <button type="button" class="btn btn-success">Купить</button>
-                            </div>
-                        </div>
-
+        <main class="row">
+            <div class="row text-center col-4">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Товар 1</h4>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title pricing-card-title">$100</h2>
+                        <p>
+                            10 users included,
+                            2 GB of storage,
+                            Email support,
+                            Help center access
+                        </p>
+                        <button type="button" class="btn btn-success">Купить</button>
+                    </div>
                 </div>
-                <div class="row col-8">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="card-title">Оставьте заявку</h3>
-                                <form>
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control" id="exampleInputEmail1"
-                                               aria-describedby="emailHelp" placeholder="Имя">
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="email" placeholder="email" class="form-control"
-                                               id="exampleInputPassword1">
-                                    </div>
-                                    <div class="mb-3">
+            </div>
+            <div class="row mb-4 rounded-3 text-center col-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Оставьте заявку</h3>
+                        <form class="col-6 form-control">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp" placeholder="Имя">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" placeholder="email" class="form-control"
+                                       id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
                                         <textarea class="form-control" placeholder="Сообщение"
                                                   id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary form-control">Отправить</button>
-                                </form>
                             </div>
-                        </div>
+                            <button type="submit" class="btn btn-primary form-control">Отправить</button>
+                        </form>
+                    </div>
                 </div>
+            </div>
+            <div class="card col-12">
+                <div class="card-body">
+                    <h4 class="card-title">FAQ</h4>
+                    <p class="d-inline-flex gap-1">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                           aria-expanded="false" aria-controls="collapseExample">
+                            Как купить?
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            Вы можете приобрести товар на нашем сайте. Оплатить заказ можно с помощью банковской карты
+                        </div>
+                    </div>
+                    <p class="d-inline-flex gap-1">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                           aria-expanded="false" aria-controls="collapseExample">
+                            Как доставить?
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            Доставка осуществляется курьером или в пункты выдачи СДЭК.
+                        </div>
+                    </div>
+                    <p class="d-inline-flex gap-1">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                           aria-expanded="false" aria-controls="collapseExample">
+                            Какая гарантия?
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            В случае получения товара не надлежащего качества свяжитесь с нашей службой поддержки.
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-</main>
+        </main>
 
-</div>
+    </div>
 
 </main>
 </div>
